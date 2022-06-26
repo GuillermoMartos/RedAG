@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.form>input{
+    font-size: 29px;
+}
+
+.buttons{
+    display: flex;
+    align-items:flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    margin-top: 1em;
+    justify-self: center;
+    align-self: center;
+}
+
+.registro{
+    margin-top: 1em;
+    justify-self: center;
+    align-self: center;
+}
+
+.swal{
+    text-align: center;
+    color:white;
+    margin:0.5em
+}

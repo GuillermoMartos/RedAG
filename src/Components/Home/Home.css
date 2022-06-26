@@ -1,0 +1,9 @@
+.container-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filtroscontainer{
+    display: flex;
+    justify-content: space-around;
+}

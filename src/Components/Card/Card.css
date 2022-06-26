@@ -1,0 +1,76 @@
+
+.container {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  min-width: 24em;
+  min-height: 20em; 
+  flex-wrap: wrap;
+  background: hsla(0, 21%, 92%, 0.856);
+  box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);
+  border-radius: 10px;
+  margin: 1em;
+  text-align: justify;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 1em;
+  color: #897eba;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 1.2em;
+  color: #4E4E4E;;
+  margin-top: -5px;
+}
+
+h1{
+    background-color: rgba(240, 248, 255, 0.432);
+}
+
+img {
+  position: absolute;
+  width: 200px;
+  height: 70%;
+  margin-top: 47px;
+  border-radius: 50%;
+}
+
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: #4E4E4E;;
+  font-size: .7em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+button{
+  background: #3b4614;
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin-left: 1em;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #bce2bf;
+  cursor: pointer;
+}
+
+button:hover{
+    background: #BA7E7E;
+    transition: all .4s ease-in-out;
+}
+
+
+
+.product{
+    z-index: 1;
+}
