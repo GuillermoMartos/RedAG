@@ -3,8 +3,8 @@
   display: flex;
   position: relative;
   overflow: hidden;
-  min-width: 24em;
-  min-height: 20em; 
+  min-width: 4em;
+  min-height: 4em; 
   flex-wrap: wrap;
   background: hsla(0, 21%, 92%, 0.856);
   box-shadow: 5px 5px 15px rgba(#BA7E7E, .5);

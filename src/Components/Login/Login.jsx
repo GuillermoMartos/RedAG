@@ -39,7 +39,7 @@ export default function Login(data) {
                             // MySwal.showLoading()
                         },
                     })
-
+                    return setLog({ ...log, password: "" });
                 }
                 if (res.data?.badPassword) {
 
@@ -61,6 +61,7 @@ export default function Login(data) {
                             // MySwal.showLoading()
                         },
                     })
+                    return setLog({ ...log, password: "" });
                 }
                 if (res.data.email) {
                     localStorage.setItem("ComprasComnutariasAG", res.data.email);
